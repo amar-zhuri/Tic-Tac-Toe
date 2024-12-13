@@ -196,7 +196,7 @@ project-root/
 
 Below is the UML diagram for the Tic-Tac-Toe project, illustrating the relationships between key components:
 
-![UML Diagram](path/to/uml_diagram.png)
+![UML Diagram](uml_diagram.png)
 
 
 ## How to Contribute
