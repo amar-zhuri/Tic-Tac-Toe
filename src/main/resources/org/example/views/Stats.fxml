@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tictactoe.controllers.StatsController"
+      spacing="20" alignment="CENTER" styleClass="stats-menu"
+      stylesheets="@../../../styles/style.css">
+
+    <Label text="Game Results" styleClass="title" />
+    <ListView fx:id="resultsListView" styleClass="list-view" prefHeight="150" prefWidth="300" />
+    <Label text="Leaderboard" styleClass="title" />
+    <ListView fx:id="leaderboardListView" styleClass="list-view" prefHeight="150" prefWidth="300" />
+    <Button text="Close" fx:id="closeButton" styleClass="button" />
+</VBox>

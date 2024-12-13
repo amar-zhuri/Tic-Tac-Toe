@@ -1,0 +1,92 @@
+/* General styles */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f9f9f9;
+}
+
+/* Titles */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Subtitles */
+.subtitle {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #666;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.button:hover {
+    -fx-background-color: #005fae;
+}
+.button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #666;
+}
+
+/* Radio Buttons */
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+.radio-button:selected {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0078d7;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #d6d6d6;
+    -fx-border-radius: 5;
+}
+
+/* List Views */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d6d6d6;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+/* Game Board */
+.game-board {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-background-color: #f4f4f9;
+    -fx-border-color: #d6d6d6;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+
+.grid-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d6d6d6;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}
+
+.status-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0078d7;
+}
+
+/* Highlight */
+.highlighted {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0078d7;
+}

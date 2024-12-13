@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tictactoe.controllers.EnterNamesController"
+      spacing="20" alignment="CENTER" styleClass="name-input-menu"
+      stylesheets="@../../../styles/style.css">
+
+    <Label text="Enter Player Names" styleClass="title" />
+    <TextField fx:id="player1NameField" promptText="Player 1 Name" styleClass="input-field" />
+    <TextField fx:id="player2NameField" promptText="Player 2 Name" styleClass="input-field" />
+    <Button text="Start" fx:id="startButton" styleClass="button" />
+</VBox>

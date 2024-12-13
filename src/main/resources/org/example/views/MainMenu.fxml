@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tictactoe.controllers.MainMenuController"
+      spacing="20" alignment="CENTER" styleClass="main-menu"
+      stylesheets="@../../../styles/style.css">
+
+    <Label text="Welcome to Tic-Tac-Toe" styleClass="title" />
+    <RadioButton text="Player vs AI" fx:id="aiOption" styleClass="radio-button" />
+    <RadioButton text="Player vs Player" fx:id="pvpOption" styleClass="radio-button" />
+    <Button text="Start Game" fx:id="startButton" styleClass="button" />
+</VBox>

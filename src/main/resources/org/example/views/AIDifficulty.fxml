@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tictactoe.controllers.AIDifficultyController"
+      spacing="20" alignment="CENTER" styleClass="difficulty-menu"
+      stylesheets="@../../../styles/style.css">
+
+    <Label text="AI Difficulty Selection" styleClass="title" />
+    <Label text="Choose the difficulty level:" styleClass="subtitle" />
+
+    <HBox spacing="15" alignment="CENTER">
+        <RadioButton text="Easy" fx:id="easyButton" styleClass="radio-button" />
+        <RadioButton text="Hard" fx:id="hardButton" styleClass="radio-button" />
+    </HBox>
+
+    <Label text="Enter Your Name:" styleClass="subtitle" />
+    <TextField fx:id="playerNameField" promptText="Your Name" styleClass="input-field" />
+
+    <Button text="Start Game" fx:id="startButton" styleClass="button" />
+</VBox>
